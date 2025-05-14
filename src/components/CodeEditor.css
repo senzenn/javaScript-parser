@@ -1,0 +1,32 @@
+.editor-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.editor-label {
+  padding: 0.5rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.editor-wrapper {
+  flex: 1;
+  overflow: hidden;
+}
+
+.code-mirror-wrapper {
+  height: 100%;
+  font-size: 14px;
+}
+
+/* Ensure CodeMirror fills the container */
+.cm-editor {
+  height: 100%;
+} 
